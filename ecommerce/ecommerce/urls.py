@@ -20,6 +20,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('store.urls')),
+    path('', include('store.urls')), # daftarin baru dari urls.py store
 ]
-
